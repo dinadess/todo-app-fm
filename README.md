@@ -1,24 +1,78 @@
-# todo-app-fm
+# Frontend Mentor - Todo App Solution
 
-## Project setup
-```
-npm install
+This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Add new todos to the list
+- Mark todos as complete
+- Delete todos from the list
+- Filter by all/active/complete todos
+- Clear all completed todos
+- Toggle light and dark mode
+- **Bonus**: Drag and drop to reorder items on the list
+
+### Screenshot
+
+![Dark Mode Desktop Screenshot](../todo-app-fm/src/assets/img/dark-mode-screenshot-todo-app-fm.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [Vue JS](https://vuejs.org/) - Vue Framework (Opyions API | Pinia)
+- [TailwindCSS](https://tailwindcss.com/) - TailwindCSS
+- [Vue Draggable](https://github.com/SortableJS/vue.draggable.next) - For drag and drop effect
+
+### What I learned
+
+CSS [caret-color](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color) which controls the text cursor's color on an input.
+
+```css
+input {
+  caret-color: var(--brightBlue);
+}
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Continued development
 
-### Lints and fixes files
-```
-npm run lint
-```
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Useful resources
+
+- [How to persist a pinia store in localStorage using Vue 3](https://github.com/vuejs/pinia/issues/309) - This helped me to save my store into localStorage. It took some time before working as I was mounting the app before setting it.
+- [AutoAnimate](https://auto-animate.formkit.com/) - This is a great utility for animating JS-based apps. I included it in the animation of the todos i.e. when adding or removing a todo, there was a smooth animation following but I ended up not using it as it was not working well with the drag-n-drop feature.
+
+## Author
+
+- Frontend Mentor - [@dinadess](https://www.frontendmentor.io/profile/dinadess)

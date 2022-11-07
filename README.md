@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Dark Mode Desktop Screenshot](../todo-app-fm/src/assets/img/dark-mode-screenshot-todo-app-fm.png)
+[Dark Mode Desktop Screenshot](../todo-app-fm/src/assets/img/dark-mode-screenshot-todo-app-fm.png)
 
 ### Links
 
@@ -48,13 +48,13 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Vue JS](https://vuejs.org/) - Vue Framework (Opyions API | Pinia)
+- [Vue JS](https://vuejs.org/) - Vue Framework (Options API | Pinia)
 - [TailwindCSS](https://tailwindcss.com/) - TailwindCSS
-- [Vue Draggable](https://github.com/SortableJS/vue.draggable.next) - For drag and drop effect
+- [Vue Draggable](https://github.com/SortableJS/vue.draggable.next) - For drag and drop feature
 
 ### What I learned
 
-CSS [caret-color](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color) which controls the text cursor's color on an input.
+CSS [caret-color](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color) property that helps you change the text cursor's color of an input.
 
 ```css
 input {
@@ -62,16 +62,15 @@ input {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+This was my first solo project using VueJS and TailwindCSS. There are much more to learn and I'll keep practicing.
 
 ### Useful resources
 
 - [How to persist a pinia store in localStorage using Vue 3](https://github.com/vuejs/pinia/issues/309) - This helped me to save my store into localStorage. It took some time before working as I was mounting the app before setting it.
 - [AutoAnimate](https://auto-animate.formkit.com/) - This is a great utility for animating JS-based apps. I included it in the animation of the todos i.e. when adding or removing a todo, there was a smooth animation following but I ended up not using it as it was not working well with the drag-n-drop feature.
+- [Deploy a Vue App to Github pages](https://learnvue.co/tutorials/deploy-vue-to-github-pages)
 
 ## Author
 

@@ -1,5 +1,4 @@
 import { defineStore } from "pinia";
-// import { useStorage } from "@vueuse/core";
 
 export const useTodoStore = defineStore("todoList", {
   state: () => ({
@@ -7,7 +6,7 @@ export const useTodoStore = defineStore("todoList", {
     todos: [],
     nextId: 0,
     /** filter => all | active | completed */
-    filter: "active",
+    filter: "all",
   }),
   getters: {
     completedTodos(state) {

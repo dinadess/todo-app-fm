@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-[Dark Mode Desktop Screenshot](../todo-app-fm/src/assets/img/dark-mode-screenshot-todo-app-fm.png)
+![Dark Mode Desktop Screenshot](../todo-app-fm/src/assets/img/dark-mode-screenshot-todo-app-fm.png)
 
 ### Links
 
